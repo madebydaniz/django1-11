@@ -1,0 +1,15 @@
+<style media="screen">
+    .menu-item{
+        padding-right: 15px;
+    }
+</style>
+<div class="container">
+  <h1>Welcome To Muy Picky</h1>
+  <nav>
+    <a class="menu-item" href="{% url 'home' %}">Home</a>
+    <a class="menu-item" href="{% url 'restaurants:list' %}">Restaurants</a>
+    <a class="menu-item" href="{% url 'restaurants:create' %}">Add Restaurant</a>
+    <a class="menu-item" href="{% url 'about' %}">About</a>
+    <a class="menu-item" href="{% url 'contact' %}">Contact</a>
+  </nav>
+</div>
